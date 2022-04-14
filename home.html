@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Restaurant Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Restaurant Feedback Form</h1>
+  
+  <form action="/action_page.php">
+  <fieldset>
+    <legend><strong>Personalia:</strong></legend>
+    
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <label for="email">Email please:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <br>
+    
+    <label for="plan">What brought you here?</label>
+    <select id="plan" name="plan">
+      <option value="food">Food</option>
+      <option value="visit">Visit</option>
+      <option value="meeting">Meeting</option>
+      <option value="tour">Tour</option>
+    </select>
+
+    <hr>
+    <p>How do you hear about us?</p>
+    <input type="checkbox" id="html" name="fav_plan" value="Email">
+    <label for="email">Email</label><br>
+    <input type="checkbox" id="newsapaper" name="fav_plan" value="Newspaper">
+    <label for="css">Newspaper</label><br>
+    <input type="checkbox" id="social" name="fav_plan" value="Social">
+    <label for="Social">Social Media</label><br>
+    <input type="checkbox" id="others" name="fav_plan" value="Others">
+    <label for="Others">Others</label><br><br>
+
+    <hr>
+    <p>Please rate us</p> 
+    <label for="serve">Service
+      <input type="radio" name="rate1" id="serve1">
+      <input type="radio" name="rate1" id="serve2">
+      <input type="radio" name="rate1" id="serve3">
+      <input type="radio" name="rate1" id="serve4">
+      <input type="radio" name="rate1" id="serve5">
+    </label>
+    <br>
+    <label for="qty">Quality Food
+      <input type="radio" name="rate2" id="qty1">
+      <input type="radio" name="rate2" id="qty2">
+      <input type="radio" name="rate2" id="qty3">
+      <input type="radio" name="rate2" id="qty4">
+      <input type="radio" name="rate2" id="qty5">
+    </label>
+    <br>
+    <label for="staff">Staff Friendliness
+      <input type="radio" name="rate3" id="staff1">
+      <input type="radio" name="rate3" id="staff2">
+      <input type="radio" name="rate3" id="staff3">
+      <input type="radio" name="rate3" id="staff4">
+      <input type="radio" name="rate3" id="staff5">
+    </label>
+    <br>
+    <label for="drink">Drinks
+      <input type="radio" name="rate4" id="drink1">
+      <input type="radio" name="rate4" id="drink2">
+      <input type="radio" name="rate4" id="drink3">
+      <input type="radio" name="rate4" id="drink4">
+      <input type="radio" name="rate4" id="drink5">
+    </label>
+    <br>
+    <label for="cozy">Ambience
+      <input type="radio" name="rate5" id="cozy1">
+      <input type="radio" name="rate5" id="cozy2">
+      <input type="radio" name="rate5" id="cozy3">
+      <input type="radio" name="rate5" id="cozy4">
+      <input type="radio" name="rate5" id="cozy5">
+    </label>
+    <br>
+    <label for="clean">Cleanliness
+      <input type="radio" name="rate6" id="clean1">
+      <input type="radio" name="rate6" id="clean2">
+      <input type="radio" name="rate6" id="clean3">
+      <input type="radio" name="rate6" id="clean4">
+      <input type="radio" name="rate6" id="clean5">
+    </label>
+    <br>
+    <label for="all">Overall Value
+      <input type="radio" name="rate7" id="all1">
+      <input type="radio" name="rate7" id="all2">
+      <input type="radio" name="rate7" id="all3">
+      <input type="radio" name="rate7" id="all4">
+      <input type="radio" name="rate7" id="all5">
+    </label>
+    <br>
+    
+    <br><br>
+    
+    <input type="submit" value="Submit">
+    
+  </fieldset>
+</form>
+  <script src="script.js"></script>
+</body>
+
+</html>
